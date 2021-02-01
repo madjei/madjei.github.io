@@ -6,7 +6,12 @@
         {
             "label": "publish",
             "type": "shell",
-            "command": "git add . && git commit -m 'new udpate'"
+            "command": "git add . && git commit -m 'new udpate' && git push",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
